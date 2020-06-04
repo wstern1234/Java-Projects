@@ -6,12 +6,12 @@ let Math = {
       num *= -1;
     }
     return num;
-  }
+  },
   
   powerOper: function(num, ex) {
     num **= ex;
   return num;
-  }
+  },
   
   rootOper: function(num, radIndex) {
     radIndex = this.powerOper(radIndex, -1);
