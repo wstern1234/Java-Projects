@@ -1,4 +1,4 @@
-const Math {
+const Math = {
   abs = (num) => {
     if (num < 0) {
       num *= -1;
