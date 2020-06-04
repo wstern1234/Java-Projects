@@ -1,18 +1,21 @@
-const Math = {
-  abs = (num) => {
+let Math = {
+  piConst: 3.14159265358979323846264338327950288,
+  
+  absOper: function(num) {
     if (num < 0) {
       num *= -1;
-    } else {
-      return num;
     }
+    return num;
   }
   
-  pow = (num, ex) => {
+  powerOper: function(num, ex) {
     num **= ex;
+  return num;
   }
   
-  root = (num, radIndex) => {
-    radIndex = this.pow(radIndex, -1);
-    num = this.pow(num, radIndex);
+  rootOper: function(num, radIndex) {
+    radIndex = this.powerOper(radIndex, -1);
+    num = this.powerOper(num, radIndex);
+    return num;
   }
 };
