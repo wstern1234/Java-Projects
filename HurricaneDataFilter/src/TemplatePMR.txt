@@ -1,0 +1,13 @@
+PROJECT TITLE: Hurricane
+PURPOSE OF PROJECT: To print out data on past Hurricanes.
+VERSION or DATE: 8/21/2020
+AUTHORS: Wills Stern
+
+***
+PMR
+
+<+s> Was able to figure out a clever-ish way to find the first and last occurrence of the minimum year and maximum year, respectively.
+<-s> Accidentally forgot to write "outFile.close()", so the first few attempts didn't output anything to the text file.
+***
+
+In the future: Always double-check to see if you closed your files in your programs.
